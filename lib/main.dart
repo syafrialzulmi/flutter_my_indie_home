@@ -414,6 +414,62 @@ class _MyHomeState extends State<MyHome> {
                     ),
                   ],
                 ),
+                Container(
+                  height: 150.0,
+                  child: ListView(
+                    scrollDirection: Axis.horizontal,
+                    children: <Widget>[
+                      Container(
+                        margin: EdgeInsets.only(right: 10),
+                        width: 350.0,
+                        decoration: BoxDecoration(
+                          borderRadius: BorderRadius.circular(20),
+                          image: DecorationImage(
+                            image: AssetImage("assets/images/banner_1.jpg"),
+                            fit: BoxFit.cover,
+                          ),
+                        ),
+                        child: null,
+                      ),
+                      Container(
+                        margin: EdgeInsets.only(right: 10),
+                        width: 350.0,
+                        decoration: BoxDecoration(
+                          borderRadius: BorderRadius.circular(20),
+                          image: DecorationImage(
+                            image: AssetImage("assets/images/banner_2.jpg"),
+                            fit: BoxFit.cover,
+                          ),
+                        ),
+                        child: null,
+                      ),
+                      Container(
+                        margin: EdgeInsets.only(right: 10),
+                        width: 350.0,
+                        decoration: BoxDecoration(
+                          borderRadius: BorderRadius.circular(20),
+                          image: DecorationImage(
+                            image: AssetImage("assets/images/banner_3.jpg"),
+                            fit: BoxFit.cover,
+                          ),
+                        ),
+                        child: null,
+                      ),
+                      Container(
+                        margin: EdgeInsets.only(right: 10),
+                        width: 350.0,
+                        decoration: BoxDecoration(
+                          borderRadius: BorderRadius.circular(20),
+                          image: DecorationImage(
+                            image: AssetImage("assets/images/banner_4.jpg"),
+                            fit: BoxFit.cover,
+                          ),
+                        ),
+                        child: null,
+                      ),
+                    ],
+                  ),
+                )
               ],
             ),
           )
