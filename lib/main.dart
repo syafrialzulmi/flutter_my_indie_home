@@ -683,7 +683,34 @@ class _MyHomeState extends State<MyHome> {
           )
         ],
       ),
-      // bottomNavigationBar: Bot,
+      bottomNavigationBar: BottomNavigationBar(
+        items: <BottomNavigationBarItem>[
+          BottomNavigationBarItem(
+            icon: Icon(Icons.home),
+            title: Text("Beranda"),
+          ),
+          BottomNavigationBarItem(
+            icon: Icon(Icons.shopping_cart),
+            title: Text("Beli"),
+          ),
+          BottomNavigationBarItem(
+            icon: Icon(Icons.monetization_on),
+            title: Text("Tagihan"),
+          ),
+          BottomNavigationBarItem(
+            icon: Icon(Icons.comment),
+            title: Text("Bantuan"),
+          ),
+          BottomNavigationBarItem(
+            icon: Icon(Icons.dashboard),
+            title: Text("Lainnya"),
+          )
+        ],
+        currentIndex: 0,
+        selectedItemColor: Colors.red,
+        unselectedItemColor: Colors.grey,
+        showSelectedLabels: true,
+      ),
     );
   }
 }
