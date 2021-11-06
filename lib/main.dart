@@ -687,29 +687,35 @@ class _MyHomeState extends State<MyHome> {
         items: <BottomNavigationBarItem>[
           BottomNavigationBarItem(
             icon: Icon(Icons.home),
-            title: Text("Beranda"),
+            label: "Beranda",
+            // title: Text("Beranda"),
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.shopping_cart),
-            title: Text("Beli"),
+            label: "Beli",
+            // title: Text("Beli"),
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.monetization_on),
-            title: Text("Tagihan"),
+            label: "Tagihan",
+            // title: Text("Tagihan"),
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.comment),
-            title: Text("Bantuan"),
+            label: "Bantuan",
+            // title: Text("Bantuan"),
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.dashboard),
-            title: Text("Lainnya"),
+            label: "Lainnya",
+            // title: Text("Lainnya"),
           )
         ],
         currentIndex: 0,
         selectedItemColor: Colors.red,
         unselectedItemColor: Colors.grey,
         showSelectedLabels: true,
+        showUnselectedLabels: true,
       ),
     );
   }
